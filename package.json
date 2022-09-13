@@ -1,13 +1,8 @@
 {
-  "name": "gatsby-starter-aestura",
-  "private": true,
+  "name": "crywolf-starter",
   "description": "A simple ui gatsby blog starter template",
   "version": "0.1.0",
-  "author": "sunwoo[SunWooLee] <sunwoo0706@icloud.com>",
-  "bugs": {
-    "url": "https://github.com/sunwoo0706/Gatsby_Starter_Aestura/issues"
-  },
-  "homepage": "https://github.com/sunwoo0706/Gatsby_Starter_Aestura#readme",
+  "homepage": "https://github.com/sh0von/CryWolf-Starter",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -62,7 +57,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sunwoo0706/Gatsby_Starter_Aestura.git"
+    "url": "git+https://github.com/sh0von/CryWolf-Starter.git"
   },
   "packageManager": "yarn@3.1.1"
 }
