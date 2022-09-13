@@ -27,7 +27,7 @@ const useInfiniteScroll = (
             frontmatter: { categories },
           },
         }: ArticleType) =>
-          selectedCategory !== '모두보기'
+          selectedCategory !== 'Blog'
             ? categories.includes(selectedCategory)
             : true,
       ),

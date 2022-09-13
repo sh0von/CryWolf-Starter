@@ -46,7 +46,7 @@ const IndexPage: React.FC<IndexPageProps> = ({
   const parsed: ParsedQuery<string> = queryString.parse(search);
   const selectedCategory: string =
     typeof parsed.category !== 'string' || !parsed.category
-      ? '모두보기'
+      ? 'Blog'
       : parsed.category;
 
   const categoryList = useMemo(
@@ -65,11 +65,11 @@ const IndexPage: React.FC<IndexPageProps> = ({
             else list[category]++;
           });
 
-          list['모두보기']++;
+          list['Blog']++;
 
           return list;
         },
-        { 모두보기: 0 },
+        { Blog: 0 },
       ),
     [],
   );
