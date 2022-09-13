@@ -47,7 +47,7 @@ const NotFoundPage: React.FC = () => {
       >
         <NotFoundHeadStyle>404 Not Found</NotFoundHeadStyle>
         <NotFoundDetailStyle>
-          No resources found you're looking for.
+          No resources found you're looking for
         </NotFoundDetailStyle>
       </section>
     </NotFoundPageWrapper>
