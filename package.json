@@ -1,5 +1,6 @@
 {
-  "name": "crywolf-starter",
+  "name": "gatsby-starter-aestura",
+  "private": true,
   "description": "A simple ui gatsby blog starter template",
   "version": "0.1.0",
   "homepage": "https://github.com/sh0von/CryWolf-Starter",
