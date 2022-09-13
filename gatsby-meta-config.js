@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'CryWolf Starter',
+  siteTitle: 'CryWolf',
   description: 'A simple ui gatsby blog starter template',
   author: 'sh0von',
   siteUrl: 'http://localhost:8000',
