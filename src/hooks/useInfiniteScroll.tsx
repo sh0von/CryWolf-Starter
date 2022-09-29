@@ -25,7 +25,7 @@ const useInfiniteScroll = (
         ({
           node: {
             frontmatter: { categories },
-          },
+          },m
         }: ArticleType) =>
           selectedCategory !== 'Blog'
             ? categories.includes(selectedCategory)
